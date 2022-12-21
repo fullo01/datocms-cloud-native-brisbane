@@ -25,7 +25,6 @@ export default function Post({ data: { site, post, morePosts } }) {
       </article>
       <SectionSeparator />
       {morePosts.nodes.length > 0 && <MoreStories posts={morePosts.nodes} />}
-      <Footer/>
     </Container>
   );
 }
