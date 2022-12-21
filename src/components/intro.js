@@ -6,23 +6,15 @@ export default function Intro() {
       <h1 className="text-3xl md:text-xl font-bold tracking-tighter leading-tight md:pr-8">
         Blog by Cloud Collective Brisbane
       </h1>
-      {/* <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        A statically generated blog example using{' '}
+      <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
+        Return{' '}
         <a
-          href="https://www.gatsbyjs.com/"
+          href="https://www.cloudcollectivebrisbane.com/"
           className="underline hover:text-success duration-200 transition-colors"
         >
-          Gatsby
+          to homepage 
         </a>{' '}
-        and{' '}
-        <a
-          href="https://www.datocms.com/"
-          className="underline hover:text-success duration-200 transition-colors"
-        >
-          DatoCMS
-        </a>
-        .
-      </h4>  */}
+      </h4> 
     </section>
   )
 }
